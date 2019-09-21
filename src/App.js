@@ -11,6 +11,7 @@ function App() {
   return (
     <>
       <C.Modules.Input />
+      <C.Modules.Results />
     </>
   );
 }
