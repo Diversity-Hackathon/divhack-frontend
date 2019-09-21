@@ -2,3 +2,37 @@
   border: 0;
   margin: 0;
   padding: 0; }
+
+.input-container {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #C9B6A2;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (70% 30%)[2];
+  grid-template-columns: repeat(2, 70% 30%);
+  height: auto;
+  padding: 1rem;
+  width: auto; }
+  .input-container .input-button {
+    background-color: #EDE7E0;
+    height: 2.5rem;
+    max-width: 15vw;
+    padding: 0 1rem; }
+  .input-container .input-group {
+    margin-bottom: 1rem; }
+    .input-container .input-group input {
+      height: 2.5rem;
+      padding-left: 1rem;
+      width: 70%; }
+  .input-container .go-button {
+    background-color: #086F3C;
+    border-radius: 5px;
+    color: #EDE7E0;
+    height: auto;
+    padding: 1rem; }
+  .input-container .last-input {
+    margin-bottom: 0; }

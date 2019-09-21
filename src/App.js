@@ -10,7 +10,6 @@ import "./styles/app.scss";
 function App() {
   return (
     <>
-      <C.Navigation.SideNavBar />
       <C.Modules.Input />
     </>
   );
