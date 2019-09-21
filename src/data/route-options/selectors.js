@@ -1,0 +1,1 @@
+export const getRouteOptions = state => state.routeOptions;

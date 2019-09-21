@@ -1,0 +1,1 @@
+export const getCurrentTrip = state => state.currentTrip;

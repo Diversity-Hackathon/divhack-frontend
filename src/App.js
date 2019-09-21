@@ -1,5 +1,6 @@
 // REACT IMPORT
 import React from 'react';
+import { Provider as ReduxProvider } from 'react-redux';
 
 // COMPONENT IMPORT
 import C from "./components";
@@ -7,12 +8,13 @@ import C from "./components";
 // SASS IMPORT
 import "./styles/app.scss";
 
-function App() {
+function App({ store }) {
   return (
-    <>
-      <C.Modules.Input />
-      <C.Modules.Results />
-    </>
+    <ReduxProvider store={store}>
+      {/* <C.Modules.Input />
+      <C.Modules.Results /> */}
+      <C.Modules.Login />
+    </ReduxProvider>    
   );
 }
 
