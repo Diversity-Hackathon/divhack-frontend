@@ -11,9 +11,10 @@ import "./styles/app.scss";
 function App({ store }) {
   return (
     <ReduxProvider store={store}>
-      {/* <C.Modules.Input />
-      <C.Modules.Results /> */}
+      <C.Modules.Input />
+      {/*<C.Modules.Results /> */}
       <C.Modules.Login />
+      <C.Modules.Results />
     </ReduxProvider>    
   );
 }
