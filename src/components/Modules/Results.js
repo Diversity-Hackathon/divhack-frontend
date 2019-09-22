@@ -76,4 +76,3 @@ export default () => (
         </TableRow>
       </TableFooter>
     </Table>
-);
