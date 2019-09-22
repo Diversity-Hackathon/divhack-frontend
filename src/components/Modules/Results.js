@@ -42,7 +42,7 @@ const COLUMNS = [
 ];
 
 export default () => (
-  <SandboxComponent>
+
     <Table caption='Simple Table'>
       <TableHeader>
         <TableRow>
@@ -66,13 +66,5 @@ export default () => (
           </TableRow>
         ))}
       </TableBody>
-      <TableFooter>
-        <TableRow>
-          {COLUMNS.map(c => (
-            <TableCell key={c.property} border='top' align={c.align}>
-              <Text>{c.footer}</Text>
-            </TableCell>
-          ))}
-        </TableRow>
-      </TableFooter>
     </Table>
+)
