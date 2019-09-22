@@ -58,13 +58,13 @@ export default () => (
           <TableRow key={datum.id}>
             {COLUMNS.map(c => (
               <TableCell key={c.property} scope={c.dataScope} align={c.align}>
-                <Text>
+                <button onClick={StorageEvent}>
                   {c.format ? c.format(datum) : datum[c.property]}
-                </Text>
+                </button>
               </TableCell>
             ))}
           </TableRow>
         ))}
       </TableBody>
     </Table>
-);
+)
