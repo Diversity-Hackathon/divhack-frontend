@@ -1,19 +1,79 @@
 // RESULTS COMPONENT
 
 // REACT IMPORT
-import React from "react";
+import React from 'react';
 
-export default class Results extends React.Component {
-    render() {
-        return(
-            <div className="results-container">
-                <div className="result-item">
-                    <h2>RANK #</h2>
-                    <img src="" alt="MODE"/>
-                    <p>MODE</p>
-                    <p>Emission amount</p>
-                </div>
-            </div>
-        );
-    }
-}
+import {
+  Table, TableBody, TableCell, TableFooter, TableHeader, TableRow,
+  Text,
+} from 'grommet';
+//import SandboxComponent from './SandboxComponent';
+
+// Always should store amount in cents to avoid precision errors
+const DATA = [
+  {
+    id: 1, name: '1', mode: 'Bus', emissions: 3775,
+  },
+  {
+    id: 2, name: '2', mode: 'Train', emissions: 5825,
+  },
+  {
+    id: 3, name: '3', mode: 'Car', emissions: 4300,
+  },
+];
+
+const COLUMNS = [
+  {
+    property: 'rank',
+    label: 'Rank',
+    dataScope: 'row',
+    format: datum => <strong>{datum.name}</strong>,
+  },
+  {
+    property: 'mode',
+    label: 'Mode of Transportation',
+  },
+  {
+    property: 'emissions',
+    label: 'Co2 Emissions (lbs)',
+    align: 'end',
+
+  },
+];
+
+export default () => (
+  <SandboxComponent>
+    <Table caption='Simple Table'>
+      <TableHeader>
+        <TableRow>
+          {COLUMNS.map(c => (
+            <TableCell key={c.property} scope='col' border='bottom' align={c.align}>
+              <Text>{c.label}</Text>
+            </TableCell>
+          ))}
+        </TableRow>
+      </TableHeader>
+      <TableBody>
+        {DATA.map(datum => (
+          <TableRow key={datum.id}>
+            {COLUMNS.map(c => (
+              <TableCell key={c.property} scope={c.dataScope} align={c.align}>
+                <Text>
+                  {c.format ? c.format(datum) : datum[c.property]}
+                </Text>
+              </TableCell>
+            ))}
+          </TableRow>
+        ))}
+      </TableBody>
+      <TableFooter>
+        <TableRow>
+          {COLUMNS.map(c => (
+            <TableCell key={c.property} border='top' align={c.align}>
+              <Text>{c.footer}</Text>
+            </TableCell>
+          ))}
+        </TableRow>
+      </TableFooter>
+    </Table>
+);
