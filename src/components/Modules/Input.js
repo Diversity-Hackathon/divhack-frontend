@@ -50,14 +50,14 @@ const GetRoute = () => {
     return (
         <div className="input-container">
             <div className="input-group input-column">
-                <input onChange={handleChange} value={routeOptions} name="beginAddress" type="text" placeholder="Street Address" />
-                <input onChange={handleChange} value={routeOptions} name="beginCity" type="text" placeholder="City" />
-                <input onChange={handleChange} value={routeOptions} name="beginState" type="text" placeholder="State" />
+                <input onChange={handleChange} value={routeOptions} name="starting-address" type="text" placeholder="Starting street address" />
+                <input onChange={handleChange} value={routeOptions} name="starting-city" type="text" placeholder="City" />
+                <input onChange={handleChange} value={routeOptions} name="starting-state" type="text" placeholder="State" />
             </div>
             <div className="input-group input-column">
-                <input onChange={handleChange} value={routeOptions} name="beginAddress" type="text" placeholder="Street Address" />
-                <input onChange={handleChange} value={routeOptions} name="beginCity" type="text" placeholder="City" />
-                <input onChange={handleChange} value={routeOptions} name="beginState" type="text" placeholder="State" />
+                <input onChange={handleChange} value={routeOptions} name="target-address" type="text" placeholder="Target street address" />
+                <input onChange={handleChange} value={routeOptions} name="target-city" type="text" placeholder="City" />
+                <input onChange={handleChange} value={routeOptions} name="target-state" type="text" placeholder="State" />
             </div>
             <div className="input-column">
                 <button className="input-button go-button" onClick={handleClick}>
