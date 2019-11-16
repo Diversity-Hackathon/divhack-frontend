@@ -52,7 +52,6 @@ function App({ store }) {
         <Router history={history}>
           <AppContainer>
             <Logo src={logo} alt="Logo" width="400" />
-            <Header>Welcome to GreenFoot</Header>
             <Switch>
               <Route exact path="/" component={Pages.Login} />
               <Route exact path="/start" component={Pages.RouteInput} />

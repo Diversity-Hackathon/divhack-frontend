@@ -40,6 +40,12 @@ const StyledLoadingIndicator = styled(LoadingIndicator)({
   marginTop: 16,
 });
 
+const Header = styled.h1(() => ({
+  color: "#6F0808",
+  fontFamily: 'sans-serif',
+  marginBottom: 32,
+}));
+
 const Login = () => {
   const dispatch = useDispatch();
   const [email, setEmail] = useState('');
@@ -56,6 +62,7 @@ const Login = () => {
 
   return (
     <>
+    <Header>Welcome to Green Foot!</Header>
       <Container> 
         <Input
           name="email"

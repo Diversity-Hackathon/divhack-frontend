@@ -35,8 +35,15 @@ const ResultItem = styled.div(({ theme: { colors } }) => ({
   },
 }));
 
+const Header = styled.h1(() => ({
+  color: "#6F0808",
+  fontFamily: 'sans-serif',
+  marginBottom: 32,
+}));
+
 const Results = () => (
   <>
+    <Header>Your footprint:</Header>
     {
       results.map(({ id, mode, emissions }) => (
         <ResultItem key={id}>

@@ -42,6 +42,12 @@ const Label = styled.h3({
   marginBottom: 8,
 });
 
+const Header = styled.h1(() => ({
+  color: "#6F0808",
+  fontFamily: 'sans-serif',
+  marginBottom: 32,
+}));
+
 const RouteInput = ({ history }) => {
   const [from, setFrom] = useState({
     address: '',
@@ -82,6 +88,7 @@ const RouteInput = ({ history }) => {
 
   return (
     <>
+    <Header>Enter locations:</Header>
       <AddressContainer>
         <Label>From:</Label>
         <Input type="text" placeholder="Street Address" value={from.address} onChange={updateFrom('address')} />
