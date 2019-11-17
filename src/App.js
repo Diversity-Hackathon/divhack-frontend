@@ -7,7 +7,7 @@ import { Switch, Route } from 'react-router-dom';
 import styled from '@emotion/styled';
 import history from './history';
 import Pages from "./pages";
-import logo from './logo.PNG';
+import logo from './logo.png';
 
 // THEME
 const theme = {
