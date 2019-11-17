@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0f36d7e503625e74a4cc932961845798",
+    "revision": "59a626bf5dcb8b4ca5b82bf38cabb955",
     "url": "/greenfoot-frontend/index.html"
   },
   {
