@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b0e2d26d1de3e785da6b36d1a28b8aa",
+    "revision": "f26289f67f6d5435adc9c0b922258344",
     "url": "/greenfoot-frontend/index.html"
   },
   {
-    "revision": "d7fa60894fd5b20fd5e5",
+    "revision": "6be79cd1b80aedb898f7",
     "url": "/greenfoot-frontend/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "d7fa60894fd5b20fd5e5",
-    "url": "/greenfoot-frontend/static/js/2.ae835523.chunk.js"
+    "revision": "6be79cd1b80aedb898f7",
+    "url": "/greenfoot-frontend/static/js/2.92519be3.chunk.js"
   },
   {
-    "revision": "c8a1d48454eb89aee834",
-    "url": "/greenfoot-frontend/static/js/main.1f201ee8.chunk.js"
+    "revision": "0aca6a81b018fc179778",
+    "url": "/greenfoot-frontend/static/js/main.1691c0a9.chunk.js"
   },
   {
     "revision": "db95ff27ed1f81325f5e",
