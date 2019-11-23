@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/greenfoot-frontend/precache-manifest.30f051cd2a0f78d0f5d882ff924282bb.js"
+  "/greenfoot-frontend/precache-manifest.3881a86cd7134a36a1e038ff6ef81330.js"
 );
 
 self.addEventListener('message', (event) => {
