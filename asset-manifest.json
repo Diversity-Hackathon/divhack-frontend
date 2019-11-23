@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/greenfoot-frontend/static/js/main.5762a536.chunk.js",
-    "main.js.map": "/greenfoot-frontend/static/js/main.5762a536.chunk.js.map",
+    "main.js": "/greenfoot-frontend/static/js/main.6f672bf6.chunk.js",
+    "main.js.map": "/greenfoot-frontend/static/js/main.6f672bf6.chunk.js.map",
     "runtime-main.js": "/greenfoot-frontend/static/js/runtime-main.b2fc1bd0.js",
     "runtime-main.js.map": "/greenfoot-frontend/static/js/runtime-main.b2fc1bd0.js.map",
     "static/css/2.764ccc25.chunk.css": "/greenfoot-frontend/static/css/2.764ccc25.chunk.css",
-    "static/js/2.92519be3.chunk.js": "/greenfoot-frontend/static/js/2.92519be3.chunk.js",
-    "static/js/2.92519be3.chunk.js.map": "/greenfoot-frontend/static/js/2.92519be3.chunk.js.map",
+    "static/js/2.219f32ac.chunk.js": "/greenfoot-frontend/static/js/2.219f32ac.chunk.js",
+    "static/js/2.219f32ac.chunk.js.map": "/greenfoot-frontend/static/js/2.219f32ac.chunk.js.map",
     "index.html": "/greenfoot-frontend/index.html",
-    "precache-manifest.2e77c908278a8b07f47f2a7ce4f8936d.js": "/greenfoot-frontend/precache-manifest.2e77c908278a8b07f47f2a7ce4f8936d.js",
+    "precache-manifest.39597e582df10b0fd997f008f18ae9c7.js": "/greenfoot-frontend/precache-manifest.39597e582df10b0fd997f008f18ae9c7.js",
     "service-worker.js": "/greenfoot-frontend/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/greenfoot-frontend/static/css/2.764ccc25.chunk.css.map",
     "static/media/logo.png": "/greenfoot-frontend/static/media/logo.c2fc88ef.png"
